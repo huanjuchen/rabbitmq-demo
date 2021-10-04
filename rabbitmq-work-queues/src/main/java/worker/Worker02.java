@@ -19,7 +19,7 @@ public class Worker02 {
 
     private static final Logger log = LoggerFactory.getLogger(Worker02.class);
 
-    private static final String QUEUE_NAME = "hello";
+    private static final String QUEUE_NAME = "hello1";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         Channel channel = RabbitMqUtil.getChannel();
